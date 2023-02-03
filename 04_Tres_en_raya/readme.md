@@ -2,7 +2,7 @@
 
 ## Comenzando 🏆
 
-Constucción de un componente de Twitter utilizando componentes, props y hooks
+Constucción del juego del Tres en raya utilizando componentes, props, useState y Local Storage
 
 ## Despliegue 📦
 
