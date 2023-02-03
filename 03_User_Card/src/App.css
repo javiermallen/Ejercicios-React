@@ -1,0 +1,30 @@
+.uc-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+.uc-img {
+    height: 250px;
+    border-radius: 50%;
+}
+.uc-skills {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.uc-skill {
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 0.25em 0.5em;
+    margin: 0.5em 0.5em;
+    background: rgb(22, 229, 236);
+    border-radius: 5px;
+}
+box-icon {
+    font-size: 2em;
+    color: rgb(22, 229, 236);
+}
