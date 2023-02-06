@@ -60,10 +60,10 @@ function App () {
       <button onClick={resetGame}>Volver a comenzar</button>
       <section className='game'>
         {
-          board.map((cell, index) => {
+          board.map((cell, key) => {
             return (
               <Square
-                index={index}
+                key={key}
                 updateBoard={updateBoard}
               >
                 {cell}
