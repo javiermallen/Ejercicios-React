@@ -1,4 +1,4 @@
-<image src="./public/Mouse_Follower.png" alt="Mouse_follower>
+<image src="./public/Mouse_Follower.png" alt="Mouse_Follower">
 
 ## Comenzando 🏆
 
