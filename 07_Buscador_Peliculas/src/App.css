@@ -1,0 +1,56 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 880px;
+}
+header {
+  width:100%
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.movies {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+.movie{
+  list-style: none;
+}
+.movie h3 {
+  text-align: center;
+}
+.movie img {
+  border-radius: 8px;
+}
+.spinner {
+  border: 4px solid rgba(0, 0, 0, .1);
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
