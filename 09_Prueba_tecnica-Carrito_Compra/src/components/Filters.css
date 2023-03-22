@@ -1,0 +1,11 @@
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+}
+.range, .select {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
